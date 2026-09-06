@@ -1,0 +1,24 @@
+{
+  "name": "nexus-bot",
+  "version": "1.0.0",
+  "description": "NEXUS WhatsApp Bot",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "nexus",
+    "baileys"
+  ],
+  "author": "NEXUS",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "latest",
+    "dotenv": "^17.2.2",
+    "pino": "^9.9.4"
+  }
+}
